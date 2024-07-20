@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    border: 2px solid white;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.84);
+    background-color: black;
+    height: 570px;
+    border-radius: 50px;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1{
+    padding-top: 30px;
+    margin-top: 20px;
+    color: white;
+    top: 30px;
+    left: 28%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.display{
+    height: 50px;
+    width: 235px;
+    font-size: 40px;
+    padding: 2px 20px 0 0;
+    /* border: 1px solid rgba(255, 255, 255, 0.685); */
+    /* box-shadow: 0 0 4px rgb(255, 255, 255); */
+    text-align: right;
+    padding-top: 20%;
+    margin-top: 35%;
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn{
+    height: 55px;
+    margin: 3px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.zero{
+    height: 55px;
+    width: 124px;
+    margin: 3px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background-color: #333333;
+    text-align: left;
+    padding-left: 28px;
+    font-size: 30px;
+}
+
+.orange{
+    height: 55px;
+    color: white;
+    width: 55px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: #FE9E05;
+    border: none;
+    font-size: 25px;
+}
+
+.grey{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #A2A3A4;
+    border: none;
+    font-size: 25px;
+}
+
+.main .navigation{
+    border-radius: 30px;
+    height: 4px;
+    width: 40%;
+    position: absolute;
+    /* margin-left: 78px;
+    margin-bottom: 5%; */
+    margin: 30px 30%;
+    background-color: white;
+}
+
+img{
+    position: absolute;
+    width: 250px;
+    top: 8px;
+    border-radius: 30px;
+    left: 13px;
+}
